@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Changes the background colour of the page */
+body {
+    background-color: #d9dcd6;
+}
+/* Changes font and size of navigation text and 'box'. Also floats it to the right of the header */
+nav {  
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Changes li styly to none and displays them inline with eachother with a left margin for spacing */
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+/* Changes font and colour of header text. Also adds a background colour and padding */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Changes h1 font size, and colour and displays it inline */
+header h1 {
+    display: inline;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+/* Changes colour of all links and applies no text decoration */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Changes font size of all text in paragraph tags */
+p {
+    font-size: 16px;
+}
+/* Changes width of banner image, makes the height scale proportionately, centers the image and */
+/* applies a bottom margin for spacing */
+#hero {
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* Applies left float property and a margin on the right */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Applies right float property and a margin on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Sets main to 75% of the total screen width, adds a margin to the left and displays inline */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Adds padding, a margin from the right screen border, changes width, height, font and background color */
+/* Also floats right and clears float */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Adds a margin and changes color to white */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adds a bottom margin and centers text alignment */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Displays images as block, sets max width and adds a margin */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Changes text color, background color, font and height. Also adds padding and a bottom margin */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Changes max height of banner image */
+main section img {
+    max-height: 200px;
+}
+/* Changes font size of h2 and adds bottom margin */
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Clears float properties, aligns text in the center, adds padding and changes font */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Changes fontsize of h2 with footer semantic parent */
+footer h2 {
+    font-size: 20px;
+}
